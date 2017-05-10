@@ -2,4 +2,4 @@
 Colin Shen</br>
 <a href="mailto:colin.m.shen@gmail.com">Contact</a><br> 
 
-<h>Group Project</h>
+<h2>Group Project</h2>
