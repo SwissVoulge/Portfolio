@@ -1,0 +1,56 @@
+package roachy;
+
+/**
+ * The class represents a roach population that may breed and that may be
+ * controlled by insecticide.
+ */
+public class RoachPopulation
+{
+	private double population;
+
+	/**
+	 * Create an initial roach population with given size.
+	 * 
+	 * @param size
+	 *            initial population
+	 */
+	public RoachPopulation(int size)
+	{
+		this.population = size;
+	}
+
+	public void doublePopulation()
+	{
+		population *= 2;
+	}
+
+	public void halfPopulation()
+	{
+		population = population * .5;
+	}
+
+	public void squarePopulation()
+	{
+		population = Math.pow(population, 2);
+	}
+
+	public void rootPopulation()
+	{
+		population = Math.sqrt(population);
+	}
+
+	public void breedPopulation()
+	{
+		population *= 1.05;
+	}
+
+	/**
+	 * Returns the current population size.
+	 * 
+	 * @return current population size
+	 */
+	public double getPopulation()
+	{
+		return population;
+	}
+}
